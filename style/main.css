@@ -1,0 +1,606 @@
+
+body {
+	font-family: 'Inter', sans-serif;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h1	{
+	text-align: center;
+	color: #0BBBD3;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 28px 0 30px 0;
+}
+
+header h1 > span {
+	color: #000;
+}
+
+.banner {
+	background-image: url(../images/baner_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 228px 0 303px 0;
+}
+
+.title p {
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 106px;
+}
+
+.flag {
+	background-image: url(../images/flag.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 388px;
+	float: left;
+	margin: -30px 59px 0 80px;
+}
+
+.wrap-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards {
+	padding: 0 80px 0 80px;
+}
+
+.cards h3 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 40px;
+}
+
+.line_under-text, .tagline-line_under-text {
+	width: 361px;
+	height: 5px;
+	background-color: #33B8F1;
+	margin-top: 16px;
+}
+
+.card {
+	width: 399px;
+	margin-top: 121px;
+	margin-bottom: 59px;
+	border-radius: 30px 30px 10px 10px;
+	box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+	text-decoration: none;
+	color: #000;
+}
+
+.wrap-cards .card:nth-child(2) {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.card:hover {
+	position: relative;
+	top:5px;
+}
+
+.card img {
+	width: 100%;
+	height: 267px;
+}
+
+.card h4 {
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 7px;
+}
+
+.card p {
+	font-size: 32px;
+	line-height: 53px;
+	margin-top: 19px;
+	margin-bottom: 22px;
+}
+
+.card h4, .card p {
+	padding: 10px 10px 0 10px;
+}
+
+.tagline {
+	margin-bottom: 202px;
+}
+
+.tagline h2 {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.tagline-line_under-text {
+	margin: 16px auto 0;
+}
+.tagline img {
+	width: 973px;
+	height: 877px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+
+.btn {
+	text-transform: uppercase;
+	text-align: center;
+	width: 430px;
+	height: 74px;
+	background-color: #33ADF1;
+	margin: -20px auto 0;
+	z-index: 2;
+	position: relative;
+}
+
+.btn a {
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	line-height: 74px;
+}
+
+.btn a:hover {
+	color: #f9da4a;
+	transition: all 0.4s ease;
+}
+
+.footer_wrap {
+	background-color: #0A2DA9;
+	text-align: center;
+	padding-top: 49px;
+	padding-bottom: 26px;
+}
+
+.footer_wrap h5 {
+	font-size: 64px;
+	color: #28CDE3;
+	font-weight: 400;
+}
+
+h5 > span {
+	color: #fff;
+}
+
+.footer_wrap a {
+	color: #353949;
+	font-size: 32px;
+	display: block;
+
+}
+
+.footer_wrap a:nth-child(2) {
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+
+.footer_wrap a:nth-child(3) {
+	margin-bottom: 42px;
+}
+
+.social-icons {
+	display: block;
+}
+
+.social-icon {
+	background-position: center;
+	background-color: #0931BF;
+	background-repeat: no-repeat;
+	width: 68px;
+	height: 64px;
+	border-radius: 50%;
+	display: block;
+}
+
+._twitter {
+	background-image: url(../images/twitter.png);
+}
+
+._telegram {
+	background-image: url(../images/teleg.png);
+}
+
+._instagram {
+	background-image: url(../images/insta.png);
+}
+
+._fb {
+	background-image: url(../images/fb.png);
+}
+
+.footer_wrap li {
+	display: inline-block;
+	margin-right: 55px;
+}
+
+.footer_wrap li:last-child {
+	margin-right: 0;
+}
+
+
+/* Responsive */
+
+/* 992 - 1200px -  */
+@media only screen and (max-width : 1200px)  {
+
+	.card img {
+		height: 220px;
+	}
+
+	.banner {
+		padding: 200px 0 260px 0;
+	}
+
+	.title p {
+		font-size: 62px;
+	}
+
+	.cards {
+		padding: 0 60px 0 60px;
+	}
+
+	.card {
+		margin-top: 75px;
+	}
+
+	.tagline {
+		margin-bottom: 150px;
+	}
+
+	.tagline img {
+		width: 925px;
+		height: 829px;
+	}
+}
+
+
+/* 768 - 992px - conteiner 720px */
+@media only screen and (max-width : 992px)  {
+	.title p {
+		font-size: 40px;
+		line-height: 64px;
+	}
+
+	.banner {
+		padding: 135px 0 180px 0;
+	}
+
+	.flag {
+		height: 290px;
+		margin: -48px 38px 0 58px;
+	}
+	.cards {
+		padding: 0 20px;
+	}
+
+	.cards h3 {
+		font-size: 42px;
+		margin-top: 27px;
+	}
+	.line_under-text {
+		width: 320px;
+		height: 4px;
+		margin-top: 4px;
+	}
+	.card {
+		margin-bottom: 47px;
+		margin-top: 49px;
+	}
+
+	.card img {
+		height: 170px;
+	}
+
+	.card h4 {
+		padding: 6px 6px 0 6px;
+		font-size: 28px;
+		margin-top: 3px;
+	}
+	.card p {
+		font-size: 26px;
+		margin-top: 0;
+		margin-bottom: 16px;
+		line-height: 33px;
+
+	}
+	.tagline {
+		margin-bottom: 70px;
+	}
+	.tagline h2 {
+		font-size: 40px;
+
+	}
+
+	.tagline-line_under-text {
+		width: 320px;
+		height: 4px;
+		margin: 9px auto 0;
+	}
+	.tagline img {
+		width: 740px;
+		height: 720px;
+	}
+
+	.btn {
+		width: 335px;
+		height: 50px;
+		margin: -50px auto 0;
+	}
+
+	.btn a {
+		line-height: 50px;
+		font-size: 35px;
+	}
+}
+
+
+
+/* 576 - 768px */
+@media only screen and (max-width : 768px)  {
+	.cards {
+		padding: 0 10px 0 10px;
+	}
+	.wrap-cards .card:nth-child(2) {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.card {
+		width: 300px;
+	}
+
+	.card img {
+		height: 150px;
+	}
+	.card h4 {
+		font-size: 24px;
+	}
+	.card p {
+		font-size: 23px;
+	}
+
+	.tagline img {
+		max-width: 100%;
+		margin-top: 7px;
+		height: 530px;
+	}
+
+	.btn {
+		margin-top: -75px;
+	}
+
+	.footer_wrap {
+		padding-top: 32px;
+		padding-bottom: 15px;
+	}
+
+	.footer_wrap h5 {
+		font-size: 45px;
+	}
+
+	.footer_wrap a:nth-child(2) {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.footer_wrap a:nth-child(3) {
+		margin-bottom: 20px;
+	}
+		.social-icon {
+		width: 54px;
+		height: 50px;
+	}
+
+	._twitter,._telegram, ._instagram, ._fb {
+	background-size: 40px;
+	}
+
+		.footer_wrap li {
+		margin-right: 20px;
+	}
+
+}
+
+
+/* 479 - 576px */
+@media only screen and (max-width: 576px) {
+	
+	.card {
+		width: 174px;
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+
+	.header h1 {
+		font-size: 40px;
+		margin: 20px 0 20px 0;
+	}
+
+	.banner {
+		padding: 80px 0 90px 0;
+	}
+
+	.flag {
+		height: 170px;
+		margin: -25px 18px 0 30px;
+	}
+
+	.title p {
+		font-size: 25px;
+		line-height: 39px;
+	}
+
+	.cards h3 {
+		font-size: 35px;
+		margin-top: 15px;
+	}
+
+	.line_under-text {
+		width: 263px;
+		height: 3px;
+	}
+
+	.wrap-cards .card:nth-child(2) {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.card img {
+		height: 125px;
+	}
+
+	.card h4 {
+		font-size: 20px;
+	}
+
+	.card p {
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+
+	.tagline h2 {
+		font-size: 30px;
+	}
+
+	.tagline-line_under-text {
+		width: 289px;
+    	height: 3px;
+    	margin: 7px auto 0;
+	}
+
+	.tagline img {
+		width: 100%;
+		height: 515px;
+	}
+
+	.tagline {
+		margin-bottom: 35px;
+	}
+
+	.btn {
+		margin-top: -60px;
+		width: 225px;
+		height: 40px;
+	}
+	
+	.btn a {
+		font-size: 25px;
+		line-height: 40px	;
+	}
+
+	.footer_wrap {
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+
+	.footer_wrap h5 {
+		font-size: 40px;
+	}
+
+	.footer_wrap a:nth-child(2) {
+		margin-top: 7px;
+		margin-bottom: 10px;
+		font-size: 27px;
+	}
+
+	.footer_wrap li {
+		margin-right: 20px;
+	}
+	.social-icon {
+		width: 54px;
+		height: 50px;
+	}
+
+	._twitter,._telegram, ._instagram, ._fb {
+	background-size: 40px;
+	}
+}
+
+/* 0 - 479px */
+@media only screen and (max-width: 479px) {
+	header h1 {
+		font-size: 35px;
+		margin: 8px 0 8px 0;
+	}
+	.banner {
+		padding: 40px 0 50px 0;
+	}
+	.flag {
+		height: 125px;
+		margin: 0 0 0 22px;
+	}
+
+	.banner p {
+		font-size: 22px;
+	}
+
+	.cards h3 {
+		font-size: 25px;
+		margin-top: 5px;
+	}
+
+	.line_under-text {
+		margin: 4px auto 0;
+		width: 191px;
+	}
+
+	.wrap-cards {
+		display: block;
+	}
+	.cards {
+		text-align: center;
+
+	}
+
+	.card {
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.wrap-cards .card:nth-child(2) {
+		margin: 0 auto;
+		margin-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.card img {
+		width: 200px;
+	}
+
+	.tagline {
+		margin-top: 30px;
+	}
+
+	.tagline h2 {
+		font-size: 25px;
+
+	} 
+
+	.tagline-line_under-text {
+		width: 245px;
+    	margin-top: 4px;
+	}
+
+	.tagline img {
+		    width: 76%;
+    height: 349px;
+    margin-top: 0px;
+	}
+
+	.btn {
+		margin-top: -45px;
+	}
+	
+}

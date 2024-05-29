@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* Обнуление одступоd (*) - обнуление для всех элементов на странице */
+* {
+  padding: 0;
+  /* Внутренние отступы */
+  margin: 0;
+  /* Наружные отступы */
+  border: 0;
+  /* Рамка */ }
+
+/* Подсчет ширины блока (свойство не дает добавленным полям и рамкам как-то влиять на размеры блока) */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Убираем линии обводки в браузерах */
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+/* Делаем элементы блочными */
+nav, footer, header, aside {
+  display: block; }
+
+/* Уравниваем поведение шрифтов и элементов для разных браузеров */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* Задаем наследование шрифтов элементам */
+input, button, textarea {
+  font-family: inherit; }
+
+/* Убираем особенности разных браузеров */
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  width: 100%;
+  height: 100%; }
+
+/* Обнуляем заголовки */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
